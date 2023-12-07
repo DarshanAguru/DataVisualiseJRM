@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.App{
+  margin: 3rem auto 3 rem auto;
+  padding: 2rem;
+}
+
+.App-header{
+  display: flex;
+  justify-content: center;
+  border-radius: 6px;
+  border:1px solid #000;
+  flex-direction: row;
+  padding: 1.2rem;
+  align-content: center;
+  font-size: 18px;
+  align-items: center;
+  padding: 1rem;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+  .uncoloured-head{
+    transition: 0.7s ease;
+    cursor: pointer;
+    border: 1px solid rgb(255, 146, 14);
+    margin:2px;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    border-radius: 4px  ;
+    -webkit-border-radius: 4px  ;
+    -moz-border-radius: 4px  ;
+    -ms-border-radius: 4px  ;
+    -o-border-radius: 4px  ;
+    -webkit-transition: 0.7s ease;
+    -moz-transition: 0.7s ease;
+    -ms-transition: 0.7s ease;
+    -o-transition: 0.7s ease;
+}
+
+
+
+  .coloured-head
+  {
+    transition: 0.7s ease;
+    cursor: pointer;
+    background: rgb(255, 146, 14);
+    color: white;
+    margin: 2px;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-transition: 0.7s ease;
+    -moz-transition: 0.7s ease;
+    -ms-transition: 0.7s ease;
+    -o-transition: 0.7s ease;
+}
+
+.footer{
+  /* width: 100%; */
+  padding: 20px;
+  font-family:'Great Vibes', cursive;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  margin-top: 10px;
+  color: white;
+  font-size: 30px;
+  border-radius: 6px;
+  background: rgb(255, 146, 14);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
